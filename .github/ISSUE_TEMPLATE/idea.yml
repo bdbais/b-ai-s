@@ -1,0 +1,45 @@
+name: 💡 Idea
+description: Proponi un'idea per B-AI-S / Propose an idea for B-AI-S
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Grazie! Nessuna idea è troppo strana. Puoi scrivere in italiano o in inglese.
+        *Thanks! No idea is too wild. Italian or English are both fine.*
+  - type: textarea
+    id: idea
+    attributes:
+      label: L'idea / The idea
+      description: Cosa vorresti che B-AI-S facesse o fosse? / What would you like B-AI-S to do or be?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Perché / Why
+      description: Quale problema risolve o quale sogno avvicina? / What problem does it solve?
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      multiple: true
+      options:
+        - Kernel / OS (Rust)
+        - Modelli AI / AI models
+        - Brain locale / Local brain
+        - Interfaccia / UX
+        - Voce / Voice
+        - Sicurezza / Security
+        - Hardware
+        - Comunità / Community
+        - Altro / Other
+  - type: dropdown
+    id: help
+    attributes:
+      label: Vorresti contribuire a realizzarla? / Would you help build it?
+      options:
+        - Sì / Yes
+        - Forse / Maybe
+        - No, è solo un'idea / Just an idea

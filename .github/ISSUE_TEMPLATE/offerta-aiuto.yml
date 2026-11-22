@@ -1,0 +1,31 @@
+name: 🙋 Voglio aiutare / I want to help
+description: Presentati e dicci come vorresti contribuire / Introduce yourself and how you'd like to help
+title: "[Aiuto] "
+labels: ["volunteer"]
+body:
+  - type: textarea
+    id: who
+    attributes:
+      label: Chi sei / Who are you
+      description: Due righe su di te e sulle tue competenze (anche se sei alle prime armi!) / A couple of lines about you and your skills (beginners welcome!)
+    validations:
+      required: true
+  - type: checkboxes
+    id: areas
+    attributes:
+      label: Dove vorresti aiutare / Where you'd like to help
+      options:
+        - label: Kernel Rust (UEFI, driver, SMP, file system)
+        - label: Modelli piccoli su CPU / Small models on CPU
+        - label: Apprendimento on-device / On-device learning
+        - label: Voce (STT/TTS) / Voice
+        - label: Brain locale, RAG, indici vettoriali / Local brain
+        - label: UX generativa / Generative UX
+        - label: Sicurezza e sandbox / Security
+        - label: Test su hardware reale / Real-hardware testing
+        - label: Documentazione e traduzioni / Docs & translations
+  - type: textarea
+    id: time
+    attributes:
+      label: Tempo e disponibilità / Time & availability
+      description: Facoltativo / Optional
