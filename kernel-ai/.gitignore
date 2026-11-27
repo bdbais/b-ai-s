@@ -1,0 +1,9 @@
+target/
+**/target/
+**/iso/
+**/.wrangler/
+*.iso
+kernel-rpi/pubblica/
+**/_backup/
+build-*.o
+build-*.so

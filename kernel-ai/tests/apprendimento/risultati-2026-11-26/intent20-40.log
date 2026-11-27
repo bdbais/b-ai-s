@@ -1,0 +1,93 @@
+
+
+B-AI-S kernel-ai 0.3.0-pc — PC x86_64
+TSC ~3604 MHz
+heap 0x3f34c0..0x1ffe0000 (507 MB)
+avviato da «GRUB 2.12-1ubuntu7.3», RAM 511 MB, 2 moduli
+framebuffer 1024x768 a 0xfd000000, ordine BGR
+impronta del corpo 9b467f4b757db7de
+modello «bais-test-llama» registrato (150 KB)
+modello «bais-intent» registrato (1353 KB)
+classificatore «bais-intent» caricato: lo scheduler lo usa per le frasi sul tema
+pronto. scrivi una richiesta e premi invio.
+> 
+>>> capisci accendi la musica
+capisci accendi la musica
+intento:#altro  (140 ms)
+> 
+>>> capisci prenota un tavolo per due
+capisci prenota un tavolo per due
+intento:#acc_viola  (189 ms)
+> 
+>>> capisci mi passi il sale
+capisci mi passi il sale
+intento:#macos  (128 ms)
+> 
+>>> capisci ho sognato un mac viola
+capisci ho sognato un mac viola
+intento:#altro  (182 ms)
+> 
+>>> capisci il cielo stanotte è scuro
+capisci il cielo stanotte è scuro
+intento:#scuro #acc_nero  (196 ms)
+> 
+>>> capisci domani compro windows
+capisci domani compro windows
+intento:#windows  (161 ms)
+> 
+>>> capisci spegni il computer
+capisci spegni il computer
+intento:#altro  (141 ms)
+> 
+>>> capisci quanto fa due più due
+capisci quanto fa due più due
+intento:#altro  (171 ms)
+> 
+>>> capisci per favore spigoli vivi
+capisci per favore spigoli vivi
+intento:#angoli_0  (176 ms)
+> 
+>>> capisci fammi metti la barra dei menu, bordi molto arrotondati
+capisci fammi metti la barra dei menu, bordi molto arrotondati
+intento:#angoli_18 #menu_si  (408 ms)
+> 
+>>> capisci cambia in stile b-ai-s ma con il dock come sul mac, finestre squadrate
+capisci cambia in stile b-ai-s ma con il dock come sul mac, finestre squadrate
+intento:#bais #angoli_0 #dock  (521 ms)
+> 
+>>> capisci per favore quello originale, bottoni a destra con anche titolo centrato
+capisci per favore quello originale, bottoni a destra con anche titolo centrato
+intento:#bais #btn_dx #tit_centro  (541 ms)
+> 
+>>> capisci voglio riportalo all'originale barra in alto
+capisci voglio riportalo all'originale barra in alto
+intento:#bais #menu_si  (331 ms)
+> 
+>>> capisci cambia in senza angoli arrotondati
+capisci cambia in senza angoli arrotondati
+intento:#angoli_0  (253 ms)
+> 
+>>> capisci un desktop ripristina sfondo tutto rosso
+capisci un desktop ripristina sfondo tutto rosso
+intento:#bais #sfondo_rosso  (304 ms)
+> 
+>>> capisci metti stile apple, uno sfondo turchese
+capisci metti stile apple, uno sfondo turchese
+intento:#macos #sfondo_turchese  (300 ms)
+> 
+>>> capisci desktop stile windows 11 con nero come la notte i pulsanti sulla sinistra
+capisci desktop stile windows 11 con nero come la notte i pulsanti sulla sinistra
+intento:#windows #scuro #btn_sx  (567 ms)
+> 
+>>> capisci un mix di mac e windows e poi i pulsanti sulla sinistra e poi sfondo di colore rosa
+capisci un mix di mac e windows e poi i pulsanti sulla sinistra e poi sfondo di colore rosa
+intento:#mix #btn_sx #sfondo_rosa  (626 ms)
+> 
+>>> capisci al buio
+capisci al buio
+intento:#scuro  (66 ms)
+> 
+>>> capisci metti angoli molto arrotondati con anche sfondo di colore grigio
+capisci metti angoli molto arrotondati con anche sfondo di colore grigio
+intento:#angoli_18 #sfondo_grigio  (478 ms)
+> 

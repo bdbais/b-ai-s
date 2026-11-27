@@ -1,0 +1,11 @@
+[package]
+name = "bais-storage"
+version = "0.1.0"
+edition = "2021"
+description = "B-AI-S kernel-ai, Fase 4: GPT/MBR, exFAT in sola lettura e SHA-256 a flusso, no_std e senza dipendenze"
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+panic = "abort"

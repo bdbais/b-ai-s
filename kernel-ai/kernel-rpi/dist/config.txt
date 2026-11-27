@@ -1,0 +1,31 @@
+# B-AI-S kernel-ai v0.3-rpi — config.txt per la partizione di boot (FAT32)
+# Una sola immagine per tutte le schede: kernel_2712.img e kernel8.img sono lo stesso file.
+
+arm_64bit=1
+enable_uart=1
+uart_2ndstage=1
+disable_splash=1
+
+# Modello per il gestore modelli (facoltativo): togli il # e copia il file .gguf
+# accanto al kernel. Il firmware lo carica subito dopo il kernel e lo indica nel device tree.
+#initramfs bais-model.gguf followkernel
+
+[pi5]
+kernel=kernel_2712.img
+
+[pi4]
+kernel=kernel8.img
+dtoverlay=disable-bt
+init_uart_clock=48000000
+
+[pi3]
+kernel=kernel8.img
+dtoverlay=disable-bt
+init_uart_clock=48000000
+
+[pi02]
+kernel=kernel8.img
+dtoverlay=disable-bt
+init_uart_clock=48000000
+
+[all]

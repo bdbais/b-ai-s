@@ -1,0 +1,72 @@
+
+
+B-AI-S kernel-ai 0.3.0-pc — PC x86_64
+TSC ~2302 MHz
+heap 0x3f8c40..0x1ffe0000 (507 MB)
+avviato da «GRUB 2.12-1ubuntu7.3», RAM 511 MB, 2 moduli
+framebuffer 1024x768 a 0xfd000000, ordine BGR
+impronta del corpo 9b467f4b757db7de
+modello «bais-test-llama» registrato (150 KB)
+modello «bais-intent» registrato (1353 KB)
+classificatore «bais-intent» caricato: lo scheduler lo usa per le frasi sul tema
+pronto. scrivi una richiesta e premi invio.
+> 
+>>> ricorda il server e' emulato
+ricorda il server e' emulato
+Ricordato. Il brain ha 1 ricordi (in RAM: spariscono allo spegnimento).
+> 
+>>> dov'è il server?
+dov'è il server?
+[1] il server e' emulato
+> 
+>>> cosa sai del server
+cosa sai del server
+[1] il server e' emulato
+> 
+>>> come stai?
+come stai?
+Sto bene. Sono acceso da 0 h 00 min, uso 3 MB di heap su 507 MB e ho 1 ricordi nel brain.
+> 
+>>> ciao, chi sei?
+ciao, chi sei?
+Sono B-AI-S, kernel-ai 0.3.0-pc su QEMU Ubuntu 24.04 PC v2. Impronta del corpo 9b467f4b757db7de. Scrivi «aiuto» per vedere cosa so fare.
+> 
+>>> quando è la riunione?
+quando è la riunione?
+[scheduler] classificatore «bais-intent»:#altro (114 ms)
+Non lo so ancora. Se vuoi che lo sappia, dimmelo con «ricorda …».
+> 
+>>> hardwre
+hardwre
+[scheduler] classificatore «bais-intent»:#altro (45 ms)
+Non ho capito. Forse intendevi «hardware»? Scrivi «aiuto».
+> 
+>>> Aiuto.
+Aiuto.
+Stili: stile macos · stile windows 11 · mix · ripristina
+Modifiche: scuro/chiaro · pulsanti a destra/sinistra · titoli centrati · angoli squadrati/arrotondati · accento viola · sfondo verde · con la barra di windows · con il dock · senza ombre · senza barra d menu · annulla
+Esempio: macos scuro con la barra di windows e accento viola
+Finestre: apri/chiudi/ingrandisci terminale|brain|sistema · pulisci
+Brain: ricorda <testo> · cerca <parole> · dov'è …? · cosa sai di … · dimentica tutto
+Parlami anche liberamente: ciao · come stai? · chi sei? · una domanda su ciò che mi hai detto di ricordare
+Sistema: hardware · temperatura · diario · abitudini · tastiera it|us · riavvia · spegni
+Modelli: modelli · carica <n> · scarica <n> · predefinito <n> · genera <testo> · token <testo> · capisci <frase>
+> 
+>>> vorrei un desktop tipo mac al buio
+vorrei un desktop tipo mac al buio
+[scheduler] classificatore «bais-intent»:#macos #scuro (167 ms)
+Fatto: stile macOS, aspetto scuro.  (capito da bais-intent, 167 ms)
+> 
+>>> ricordati che la riunione è giovedì alle 10
+ricordati che la riunione è giovedì alle 10
+Ricordato. Il brain ha 2 ricordi (in RAM: spariscono allo spegnimento).
+> 
+>>> quando è la riunione?
+quando è la riunione?
+[scheduler] classificatore «bais-intent»:#altro (108 ms)
+[1] la riunione è giovedì alle 10
+> 
+>>> grazie
+grazie
+Di niente.
+> 

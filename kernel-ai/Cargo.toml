@@ -1,0 +1,12 @@
+[workspace]
+members = ["model", "model-cli"]
+exclude = ["kernel-rpi", "kernel-pc", "bais-storage", "uefi-sonda"]
+resolver = "2"
+
+[profile.release]
+opt-level = 3
+debug = false
+codegen-units = 1
+
+[profile.dev]
+opt-level = 2

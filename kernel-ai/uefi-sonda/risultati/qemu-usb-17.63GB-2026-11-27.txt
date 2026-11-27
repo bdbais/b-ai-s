@@ -1,0 +1,30 @@
+[=3h[=3h[=3hBdsDxe: loading Boot0001 "UEFI QEMU QEMU USB HARDDRIVE 1-0000:00:02.0-1" from PciRoot(0x0)/Pci(0x2,0x0)/USB(0x0,0x0)
+BdsDxe: starting Boot0001 "UEFI QEMU QEMU USB HARDDRIVE 1-0000:00:02.0-1" from PciRoot(0x0)/Pci(0x2,0x0)/USB(0x0,0x0)
+B-AI-S sonda della chiavetta v0.1 - bais-storage (Rust no_std)
+TSC: 2100 MHz
+disco 0: 34844672 blocchi da 512 byte, rimovibile
+exFAT «MODELLI»: dal blocco 133120, 17772 MB, cluster da 32 KB
+radice:
+  [cartella] modelli
+              27 leggimi.txt
+lettura di /modelli/inkling-2-mini.gguf (17630756864 byte)...
+  1 GiB letti, 15 s
+  2 GiB letti, 30 s
+  3 GiB letti, 46 s
+  4 GiB letti, 62 s
+  5 GiB letti, 77 s
+  6 GiB letti, 93 s
+  7 GiB letti, 109 s
+  8 GiB letti, 125 s
+  9 GiB letti, 140 s
+  10 GiB letti, 156 s
+  11 GiB letti, 171 s
+  12 GiB letti, 187 s
+  13 GiB letti, 201 s
+  14 GiB letti, 216 s
+  15 GiB letti, 232 s
+  16 GiB letti, 247 s
+  letti 17630756864 byte in 253461 ms (69 MB/s), 2171 richieste
+  sha256 03e5e310cfd46af890aa7003b4aaea8f7dfb433ef59e2c7c972e2f7f71926c6d
+  ESITO: VERIFICATO
+FINE: 1 volumi exFAT, 1 verificati

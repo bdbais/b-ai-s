@@ -1,0 +1,21 @@
+[package]
+name = "bais-sonda-ffi"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Ponte C per usare bais-storage dentro l'applicazione UEFI di prova"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+bais-storage = { path = "../../bais-storage" }
+
+[profile.release]
+panic = "abort"
+opt-level = 2
+lto = true
+codegen-units = 1
+
+[profile.dev]
+panic = "abort"

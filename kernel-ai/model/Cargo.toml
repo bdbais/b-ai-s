@@ -1,0 +1,9 @@
+[package]
+name = "bais-model"
+version = "0.1.0"
+edition = "2021"
+description = "Gestore modelli e motore di inferenza no_std per kernel-ai (B-AI-S)"
+license = "Apache-2.0"
+
+[dependencies]
+libm = "0.2"

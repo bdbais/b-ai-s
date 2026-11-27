@@ -1,0 +1,173 @@
+
+
+B-AI-S kernel-ai 0.3.0-pc — PC x86_64
+TSC ~3605 MHz
+heap 0x3f34c0..0x1ffe0000 (507 MB)
+avviato da «GRUB 2.12-1ubuntu7.3», RAM 511 MB, 2 moduli
+framebuffer 1024x768 a 0xfd000000, ordine BGR
+impronta del corpo 9b467f4b757db7de
+modello «bais-test-llama» registrato (150 KB)
+modello «bais-intent» registrato (1353 KB)
+classificatore «bais-intent» caricato: lo scheduler lo usa per le frasi sul tema
+pronto. scrivi una richiesta e premi invio.
+> 
+>>> stile macos
+stile macos
+[scheduler] classificatore «bais-intent»:#macos (107 ms)
+Fatto: stile macOS.  (capito da bais-intent, 107 ms)
+> 
+>>> apri brain
+apri brain
+Brain: apri
+> 
+>>> stile windows 11
+stile windows 11
+[scheduler] classificatore «bais-intent»:#windows (124 ms)
+Fatto: stile Windows 11.  (capito da bais-intent, 124 ms)
+> 
+>>> stile macos
+stile macos
+[scheduler] classificatore «bais-intent»:#macos (94 ms)
+Fatto: stile macOS.  (capito da bais-intent, 94 ms)
+> 
+>>> apri brain
+apri brain
+Brain: apri
+Ho notato che dopo «stile macos» chiedi spesso «apri brain». Posso farlo da solo d'ora in poi? (sì/no)
+> 
+>>> si
+si
+D'accordo: d'ora in poi dopo «stile macos» eseguo da solo «apri brain».
+> 
+>>> stile macos
+stile macos
+[scheduler] classificatore «bais-intent»:#macos (92 ms)
+Fatto: stile macOS.  (capito da bais-intent, 92 ms)
+abitudine: eseguo «apri brain»
+Brain: apri
+> 
+>>> scuro
+scuro
+[scheduler] classificatore «bais-intent»:#scuro (53 ms)
+Fatto: aspetto scuro.  (capito da bais-intent, 53 ms)
+> 
+>>> chiaro
+chiaro
+[scheduler] classificatore «bais-intent»:#chiaro (59 ms)
+Fatto: aspetto chiaro.  (capito da bais-intent, 59 ms)
+> 
+>>> pulisci
+pulisci
+> 
+>>> scuro
+scuro
+[scheduler] classificatore «bais-intent»:#scuro (52 ms)
+Fatto: aspetto scuro.  (capito da bais-intent, 52 ms)
+> 
+>>> chiaro
+chiaro
+[scheduler] classificatore «bais-intent»:#chiaro (62 ms)
+Fatto: aspetto chiaro.  (capito da bais-intent, 62 ms)
+Ho notato che dopo «scuro» chiedi spesso «chiaro». Posso farlo da solo d'ora in poi? (sì/no)
+> 
+>>> no
+no
+Va bene, non lo farò da solo. Non te lo chiederò più.
+> 
+>>> hardware
+hardware
+Macchina     QEMU Standard PC
+CPU          QEMU Virtual CPU version 2.5+ · 1 thread (1 attivo) · ~3605 MHz
+Memoria      511 MB totali, 507 MB di heap
+Heap         3 MB usati su 507 MB
+Schermo      1024 × 768, 32 bit
+SIMD         SSE2
+Modelli      2 registrati, 503 KB
+Impronta     9b467f4b757db7de
+Avvio        GRUB 2.12-1ubuntu7.3
+
+Proposte per sfruttare questo corpo:
+1. Niente AVX2: i prodotti scalari restano su SSE2.
+2. Sono in una macchina virtuale: niente sensori di temperatura né GPU vera. Sul PC reale serve l'avvio UEFI.
+3. Disco e chiavetta (AHCI/NVMe/USB) per tenere diario, abitudini e tema dopo lo spegnimento.
+
+> 
+>>> scuro
+scuro
+[scheduler] classificatore «bais-intent»:#scuro (52 ms)
+Fatto: aspetto scuro.  (capito da bais-intent, 52 ms)
+> 
+>>> chiaro
+chiaro
+[scheduler] classificatore «bais-intent»:#chiaro (59 ms)
+Fatto: aspetto chiaro.  (capito da bais-intent, 59 ms)
+> 
+>>> accento viola
+accento viola
+[scheduler] classificatore «bais-intent»:#acc_viola (107 ms)
+Fatto: colore d'accento.  (capito da bais-intent, 107 ms)
+> 
+>>> sfondo verde
+sfondo verde
+[scheduler] classificatore «bais-intent»:#sfondo_verde (105 ms)
+Fatto: sfondo.  (capito da bais-intent, 105 ms)
+> 
+>>> temperatura
+temperatura
+Non leggo ancora i sensori di temperatura di questo PC (MSR/ACPI da scrivere).
+> 
+>>> accento viola
+accento viola
+[scheduler] classificatore «bais-intent»:#acc_viola (105 ms)
+Fatto: colore d'accento.  (capito da bais-intent, 105 ms)
+> 
+>>> sfondo verde
+sfondo verde
+[scheduler] classificatore «bais-intent»:#sfondo_verde (99 ms)
+Fatto: sfondo.  (capito da bais-intent, 99 ms)
+Ho notato che dopo «accento viola» chiedi spesso «sfondo verde». Posso farlo da solo d'ora in poi? (sì/no)
+> 
+>>> diario
+diario
+  6. stile macos
+  7. apri brain
+  8. scuro
+  9. chiaro
+ 10. pulisci
+ 11. scuro
+ 12. chiaro
+ 13. hardware
+ 14. scuro
+ 15. chiaro
+ 16. accento viola
+ 17. sfondo verde
+ 18. temperatura
+ 19. accento viola
+ 20. sfondo verde
+> 
+>>> accento viola
+accento viola
+[scheduler] classificatore «bais-intent»:#acc_viola (106 ms)
+Fatto: colore d'accento.  (capito da bais-intent, 106 ms)
+> 
+>>> sfondo verde
+sfondo verde
+[scheduler] classificatore «bais-intent»:#sfondo_verde (99 ms)
+Fatto: sfondo.  (capito da bais-intent, 99 ms)
+> 
+>>> titoli centrati
+titoli centrati
+[scheduler] classificatore «bais-intent»:#tit_centro (128 ms)
+Fatto: titoli centrati.  (capito da bais-intent, 128 ms)
+> 
+>>> angoli squadrati
+angoli squadrati
+[scheduler] classificatore «bais-intent»:#angoli_0 (129 ms)
+Fatto: angoli squadrati.  (capito da bais-intent, 129 ms)
+> 
+>>> abitudini
+abitudini
+«stile macos» → «apri brain»  automatica
+«scuro» → «chiaro»  rifiutata o in attesa
+«accento viola» → «sfondo verde»  rifiutata o in attesa
+> 

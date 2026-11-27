@@ -1,0 +1,23 @@
+[package]
+name = "bais-kernel-rpi"
+version = "0.3.0"
+edition = "2021"
+description = "kernel-ai di B-AI-S per Raspberry Pi 5 (ARM64 bare metal); gira anche su Pi 4, Pi 3 e Zero 2 W"
+license = "Apache-2.0"
+
+[dependencies]
+bais-model = { path = "../model" }
+libm = "0.2"
+
+[profile.release]
+opt-level = 3
+panic = "abort"
+codegen-units = 1
+debug = false
+
+[profile.dev]
+opt-level = 2
+panic = "abort"
+
+# crate a sé: target diverso dal workspace del gestore modelli
+[workspace]

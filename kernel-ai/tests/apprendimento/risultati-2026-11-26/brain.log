@@ -1,0 +1,61 @@
+
+
+B-AI-S kernel-ai 0.3.0-pc — PC x86_64
+TSC ~3604 MHz
+heap 0x3f34c0..0x1ffe0000 (507 MB)
+avviato da «GRUB 2.12-1ubuntu7.3», RAM 511 MB, 2 moduli
+framebuffer 1024x768 a 0xfd000000, ordine BGR
+impronta del corpo 9b467f4b757db7de
+modello «bais-test-llama» registrato (150 KB)
+modello «bais-intent» registrato (1353 KB)
+classificatore «bais-intent» caricato: lo scheduler lo usa per le frasi sul tema
+pronto. scrivi una richiesta e premi invio.
+> 
+>>> ricorda: il router di casa ha indirizzo 192.168.1.1
+ricorda: il router di casa ha indirizzo 192.168.1.1
+Ricordato. Il brain ha 1 ricordi (in RAM: spariscono allo spegnimento).
+> 
+>>> ricorda: la riunione con il capo e giovedi alle 10
+ricorda: la riunione con il capo e giovedi alle 10
+Ricordato. Il brain ha 2 ricordi (in RAM: spariscono allo spegnimento).
+> 
+>>> ricorda: Bais preferisce il tema scuro
+ricorda: Bais preferisce il tema scuro
+Ricordato. Il brain ha 3 ricordi (in RAM: spariscono allo spegnimento).
+> 
+>>> cerca router
+cerca router
+[1] il router di casa ha indirizzo 192.168.1.1
+> 
+>>> cerca riunione capo
+cerca riunione capo
+[2] la riunione con il capo e giovedi alle 10
+> 
+>>> cerca ROUTER
+cerca ROUTER
+[1] il router di casa ha indirizzo 192.168.1.1
+> 
+>>> cerca tema scuro
+cerca tema scuro
+[2] Bais preferisce il tema scuro
+> 
+>>> cerca appuntamento
+cerca appuntamento
+Nel brain non c'è niente di pertinente.
+> 
+>>> cerca indirizzo del modem
+cerca indirizzo del modem
+[1] il router di casa ha indirizzo 192.168.1.1
+> 
+>>> cerca il
+cerca il
+Nel brain non c'è niente di pertinente.
+> 
+>>> dimentica tutto
+dimentica tutto
+Brain svuotato.
+> 
+>>> cerca router
+cerca router
+Nel brain non c'è niente di pertinente.
+> 

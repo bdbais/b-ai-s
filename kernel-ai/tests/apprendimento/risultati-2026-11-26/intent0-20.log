@@ -1,0 +1,93 @@
+
+
+B-AI-S kernel-ai 0.3.0-pc — PC x86_64
+TSC ~3607 MHz
+heap 0x3f34c0..0x1ffe0000 (507 MB)
+avviato da «GRUB 2.12-1ubuntu7.3», RAM 511 MB, 2 moduli
+framebuffer 1024x768 a 0xfd000000, ordine BGR
+impronta del corpo 9b467f4b757db7de
+modello «bais-test-llama» registrato (150 KB)
+modello «bais-intent» registrato (1353 KB)
+classificatore «bais-intent» caricato: lo scheduler lo usa per le frasi sul tema
+pronto. scrivi una richiesta e premi invio.
+> 
+>>> capisci tema notturno in stile apple
+capisci tema notturno in stile apple
+intento:#altro  (224 ms)
+> 
+>>> capisci mettimi windows in modalità scura
+capisci mettimi windows in modalità scura
+intento:#windows #scuro  (296 ms)
+> 
+>>> capisci vorrei il look del mac
+capisci vorrei il look del mac
+intento:#dock  (171 ms)
+> 
+>>> capisci finestre con gli angoli tondi e lo sfondo blu
+capisci finestre con gli angoli tondi e lo sfondo blu
+intento:#angoli_11 #sfondo_blu  (341 ms)
+> 
+>>> capisci un'interfaccia come windows coi bottoni a sinistra
+capisci un'interfaccia come windows coi bottoni a sinistra
+intento:#windows #btn_sx  (377 ms)
+> 
+>>> capisci mac chiaro col dock
+capisci mac chiaro col dock
+intento:#macos #chiaro #dock  (167 ms)
+> 
+>>> capisci windows 11 senza ombre e con la taskbar
+capisci windows 11 senza ombre e con la taskbar
+intento:#windows #ombre_no #taskbar  (313 ms)
+> 
+>>> capisci voglio i colori del giorno
+capisci voglio i colori del giorno
+intento:#chiaro #acc_nero  (208 ms)
+> 
+>>> capisci accento arancione e titoli in mezzo
+capisci accento arancione e titoli in mezzo
+intento:#tit_centro #acc_arancione  (264 ms)
+> 
+>>> capisci riporta tutto com'era all'inizio
+capisci riporta tutto com'era all'inizio
+intento:#bais  (242 ms)
+> 
+>>> capisci stile macso scuro
+capisci stile macso scuro
+intento:#macos #scuro  (142 ms)
+> 
+>>> capisci MACOS SCURO
+capisci MACOS SCURO
+intento:#macos #scuro  (100 ms)
+> 
+>>> capisci dark mode stile mac
+capisci dark mode stile mac
+intento:#scuro  (147 ms)
+> 
+>>> capisci black theme windows
+capisci black theme windows
+intento:#windows #chiaro #dock  (164 ms)
+> 
+>>> capisci sfondo color rosso
+capisci sfondo color rosso
+intento:#sfondo_rosso  (146 ms)
+> 
+>>> capisci evidenzia tutto in giallo
+capisci evidenzia tutto in giallo
+intento:#acc_giallo  (188 ms)
+> 
+>>> capisci nascondi le ombre
+capisci nascondi le ombre
+intento:#ombre_si  (132 ms)
+> 
+>>> capisci togli la barra in alto
+capisci togli la barra in alto
+intento:#menu_no  (170 ms)
+> 
+>>> capisci il mio gatto è nero
+capisci il mio gatto è nero
+intento:#altro  (154 ms)
+> 
+>>> capisci che tempo fa a milano
+capisci che tempo fa a milano
+intento:#altro  (166 ms)
+> 

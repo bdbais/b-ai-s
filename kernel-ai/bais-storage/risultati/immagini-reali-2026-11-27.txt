@@ -1,0 +1,59 @@
+    Finished `release` profile [optimized] target(s) in 0.03s
+[A superfloppy] blocco del dispositivo 512 byte
+  ok    albero identico (314 voci) 
+     file con catena FAT: 0, contigui: 307
+  ok    sha256 identico su 308 file []
+  ok    letture a caso (posizione e lunghezza qualsiasi) su 40 file x 8
+  ok    «PERCHÉ È COSÌ.TXT» trova «Perché è così.txt»
+  ok    file inesistente → «file non trovato»
+  ok    una cartella non si legge come file
+  ok    etichetta letta, tabella maiuscole verificata: settore 512 cluster 4096 cluster_tot 65024 settori 524288 seriale 6f8f90a1 rev 1.0 etichetta «BAIS-A» maiuscole true
+[B GPT, cluster 4K, file frammentati] blocco del dispositivo 512 byte
+  ok    albero identico (317 voci) 
+     file con catena FAT: 2, contigui: 308
+  ok    sha256 identico su 311 file []
+  ok    letture a caso (posizione e lunghezza qualsiasi) su 40 file x 8
+  ok    «PERCHÉ È COSÌ.TXT» trova «Perché è così.txt»
+  ok    file inesistente → «file non trovato»
+  ok    una cartella non si legge come file
+  ok    GPT: ESP e partizione dati riconosciute
+  ok    GPT principale rovinata: letta la copia di riserva
+  ok    entrambe le GPT rovinate → «GPT danneggiata»
+[C MBR] blocco del dispositivo 512 byte
+  ok    albero identico (314 voci) 
+     file con catena FAT: 0, contigui: 307
+  ok    sha256 identico su 308 file []
+  ok    «PERCHÉ È COSÌ.TXT» trova «Perché è così.txt»
+  ok    file inesistente → «file non trovato»
+  ok    una cartella non si legge come file
+[D settori 4K] blocco del dispositivo 4096 byte
+  ok    albero identico (317 voci) 
+     file con catena FAT: 2, contigui: 308
+  ok    sha256 identico su 311 file []
+  ok    letture a caso (posizione e lunghezza qualsiasi) su 40 file x 8
+  ok    «PERCHÉ È COSÌ.TXT» trova «Perché è così.txt»
+  ok    file inesistente → «file non trovato»
+  ok    una cartella non si legge come file
+[D settori 4K] blocco del dispositivo 512 byte
+  ok    albero identico (317 voci) 
+     file con catena FAT: 2, contigui: 308
+  ok    sha256 identico su 311 file []
+  ok    letture a caso (posizione e lunghezza qualsiasi) su 40 file x 8
+  ok    «PERCHÉ È COSÌ.TXT» trova «Perché è così.txt»
+  ok    file inesistente → «file non trovato»
+  ok    una cartella non si legge come file
+  ok    settore del volume 4096 rilevato
+[E] corruzioni
+  ok    settore di avvio alterato → checksum di avvio
+  ok    nome alterato senza aggiornare il checksum → voce non valida
+  ok    ciclo nella FAT → «catena dei cluster rotta» all'apertura, mai dati sbagliati
+
+37 verifiche passate, 0 fallite
+
+# Parte F, eseguita a parte con --big 16.42:
+     7e0a38f92da5667036f591df6fb169ae82a7986e38ab3acb087a89453a7f78fc  /inkling-prova.gguf	17630853095 byte	74.67 s	236 MB/s	2167 richieste 
+  ok    file da 17.63 GB: sha256 identico
+  ok    lettura oltre la fine si ferma a fine file
+  ok    lettura a 5 GiB dall'inizio (oltre i 32 bit)
+
+40 verifiche passate, 0 fallite
